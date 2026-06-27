@@ -13,7 +13,6 @@ public:
     {
         cout << "\nEnter Account Number: ";
         cin >> accountNo;
-
         cin.ignore();
         cout << "Enter Account Holder Name: ";
         getline(cin, name);
